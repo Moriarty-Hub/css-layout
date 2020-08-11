@@ -12,3 +12,81 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+main {
+    padding-top: 50px;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    background-color: black;
+
+}
+
+header h1 {
+    color: white;
+    float: left;
+    margin-left: 37%;
+}
+
+header img {
+    float: left;
+    border-radius: 50%;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.description {
+    padding: 50px 100px 50px 100px;
+    background: lightgrey;
+}
+
+.relationship {
+    padding: 30px 100px;
+}
+
+.description-img1 {
+    float: left;
+    width: 400px;
+    height: 450px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.description-p2 {
+    clear: both;
+}
+
+.description-img2 {
+    float: right;
+    padding-top: 50px;
+    width: 400px;
+    height: 450px;
+
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
